@@ -732,7 +732,7 @@ public class Graph {
   /**
    * Determine if a vertex is valid.
    */
-  private boolean validVertex(int vertex) {
+  public boolean validVertex(int vertex) {
     return ((vertex >= 0) && (vertex < this.vertices.length)
         && (this.vertexNames[vertex] != null));
   } // validVertex
